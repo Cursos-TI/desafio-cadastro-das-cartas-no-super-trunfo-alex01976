@@ -14,6 +14,11 @@ int main() {
     
    printf("Estado A\n\n");
 
+   printf("Digite o Estado da carta A: \n");
+   scanf("%s",&Estado);
+   
+
+
 
 
 
