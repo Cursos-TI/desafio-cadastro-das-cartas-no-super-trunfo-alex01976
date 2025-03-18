@@ -2,6 +2,6 @@
 
 
 int main() {
-   printf("Desafio Super trunfo - Novato!\n")
+   printf("Desafio Super trunfo - Novato!\n");
     return 0;
 }
