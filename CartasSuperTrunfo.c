@@ -35,6 +35,14 @@ int main() {
    printf("Número de Pontos Turísticos: \n");
    scanf("%d", &Numero_de_Pontos_Turisticos);
 
+   printf("Estado: %s \n" , Estado);
+   printf("Código da Carta: %s \n" , Codigo_da_carta);
+   print("Nome da Cidade: %s \n" , Nome_da_cidade );
+   print("População: %.2f \n" , populacao );
+   print("Área em Km: %.2f \n" , Area_em_Km);
+   printf("PIB: %.2f \n" , Area_em_Km);
+   printf("Pontos Turísticos: %d \n" , Numero_de_Pontos_Turisticos);
+
    
 
 
