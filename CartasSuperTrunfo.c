@@ -18,22 +18,22 @@ int main() {
    scanf("%s",&Estado);
 
    printf("Digite o Código da Carta: \n");
-   scanf("%d",&Codigo_da_carta);
+   scanf("%s",&Codigo_da_carta);
 
    printf("Digite o nome da cidade: \n");
    scanf("%s", &Nome_da_cidade);
 
    printf("População: \n");
-   scanf("%2f",&populacao);
+   scanf("%f",&populacao);
 
-   printf("Área em Km");
-   scanf("%2f",&Area_em_Km);
+   printf("Área em Km \n");
+   scanf("%f",&Area_em_Km);
 
    printf("PIB: \n");
-   scanf("%2f", &PIB);
+   scanf("%f", &PIB);
 
    printf("Número de Pontos Turísticos: \n");
-   scanf("%d",Numero_de_Pontos_Turisticos);
+   scanf("%d", &Numero_de_Pontos_Turisticos);
 
    
 
