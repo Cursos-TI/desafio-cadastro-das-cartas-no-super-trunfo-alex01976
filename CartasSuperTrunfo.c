@@ -32,10 +32,10 @@ int main() {
    printf("PIB: \n");
    scanf("%f", &PIB);
 
-   printf("Número de Pontos Turísticos: \n");
+   printf("Número de Pontos Turísticos: \n \n");
    scanf("%d", &Numero_de_Pontos_Turisticos);
 
-   printf("Estado B\n\n");
+   printf("Estado B\n");
 
    printf("Estado B: \n");
    scanf("%s", &Estado);
@@ -49,7 +49,7 @@ int main() {
    printf("População: \n");
    scanf("%d", &populacao);
     
-   printf("Área:" \n);
+   printf("Área: \n");
    scanf("%f", &Area_em_Km);
    
    printf("PIB: \n");
@@ -68,9 +68,9 @@ int main() {
    printf("Os Pontos Turísticos são: %d \n" , Numero_de_Pontos_Turisticos);
 
    printf("Estado: %s \n", Estado);
-   printf("Código: %S \n", Codigo_da_carta);
+   printf("Código: %s \n", Codigo_da_carta);
    printf("Cidade: %s \n", Nome_da_cidade);
-   printf("População: %f \n", populacao);
+   printf("População: %d \n", populacao);
    printf("Área: %.2f \n", Area_em_Km);
    printf("PIB: %.2f \n", PIB);
    printf("Pontos Turísticos: %d \n", Numero_de_Pontos_Turisticos);
