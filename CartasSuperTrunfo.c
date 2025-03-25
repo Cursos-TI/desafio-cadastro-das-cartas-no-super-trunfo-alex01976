@@ -37,19 +37,19 @@ int main() {
 
    printf("Estado B\n\n");
 
-   printf("Digite o Estado da carta B: \n");
+   printf("Estado da carta B: \n");
    scanf("%s", &Estado);
 
-   printf("Digite o Códidigo da carta: \n");
+   printf("Códidigo da carta: \n");
    scanf("%S", &Codigo_da_carta);
 
-   printf("Digite o nome da cidade: \n");
+   printf("Nome da cidade: \n");
    scanf("%s", &Nome_da_cidade);
 
    printf("População: \n");
    scanf("%d", &populacao);
     
-   printf("Área em Km:" \n);
+   printf("Área:" \n);
    scanf("%f", &Area_em_Km);
    
    printf("PIB: \n");
@@ -62,22 +62,11 @@ int main() {
    printf("Estado da Carta: %s \n" , Estado);
    printf("Código da Carta: %s \n" , Codigo_da_carta);
    printf("A Cidade é: %s \n" , Nome_da_cidade );
-   printf("A População é de: %.2f \n" , populacao );
+   printf("A População é de: %f \n" , populacao );
    printf(" A Área em Km é de: %.2f \n" , Area_em_Km);
    printf("O PIB é: %.2f \n" , PIB);
    printf("Os Pontos Turísticos são: %d \n" , Numero_de_Pontos_Turisticos);
    
-
-
-
-
-
-
-
-
-
-
-
 
 
    
