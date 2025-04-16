@@ -50,6 +50,8 @@ int main() {
    Densidade_Populacional_A = populacaoA / Area_em_KmA; 
    PIB_Per_Capita_A = PIBA / populacaoA;
 
+   printf("Densidade Populacional de A: %.2f \n", Densidade_Populacional_A);
+   printf("PIB per capita de A: %.2f \n", PIB_Per_Capita_A);
 
    printf("Estado carta B\n");
 
@@ -77,6 +79,9 @@ int main() {
    Densidade_Populacional_B = populacaoB / Area_em_kmB;
    PIB_Per_Capita_B = PIB_B / populacaoB;
 
+   printf("Densidade Populacional de B: %.2f \n", Densidade_Populacional_B);
+   printf("PIB per capita de B: %.2f \n", PIB_Per_Capita_B);
+
 
    printf("Estado da Carta: %s \n" , EstadoA);
    printf("Código da Carta: %s \n" , Codigo_da_cartaA);
@@ -85,8 +90,7 @@ int main() {
    printf(" A Área em Km é de: %.2f \n" , Area_em_KmA);
    printf("O PIB é: %.2f \n" , PIBA);
    printf("Os Pontos Turísticos são: %d \n" , Numero_de_Pontos_TuristicosA);
-   printf("Densidade Populacional de A: %.2f \n", Densidade_Populacional_A);
-   printf("PIB per capita de A: %.2f \n", PIB_Per_Capita_A);
+   
 
    printf("Estado: %s \n", EstadoB);
    printf("Código: %s \n", Codigo_da_cartaB);
@@ -95,11 +99,8 @@ int main() {
    printf("Área: %.2f \n", Area_em_kmB);
    printf("PIB: %.2f \n", PIB_B);
    printf("Pontos Turísticos: %d \n", Numero_de_Pontos_TuristicosB);
-   printf("Densidade Populacional de B: %.2f \n", Densidade_Populacional_B);
-   printf("PIB per capita de B: %.2f \n", PIB_Per_Capita_B);
+
    
-
-
    
     return 0;
 }
